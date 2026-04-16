@@ -15,7 +15,7 @@ def test_app_page_markdown():
 
 
 def test_app_page_login():
-    at = AppTest.from_file("pages/about.py").run()
+    at = AppTest.from_file("pages/overview.py").run()
 
     at.session_state.logged_in = False
 
